@@ -1,0 +1,40 @@
+Desenvolva um programa em Java para a companhia aérea **Sweet Flight**, permitindo que atendentes realizem a **gestão de reservas de passagens**. O programa deve seguir os seguintes requisitos:
+
+- Solicitar ao usuário a quantidade de aviões disponíveis (máximo de 4).
+- Para cada avião, solicitar a quantidade de assentos disponíveis.
+- O sistema deve permitir a realização de **até 20 reservas**.
+- Implementar um **menu interativo** com as seguintes opções:
+
+  1. **Registrar o número de cada avião.**
+     - O atendente deve informar o número dos quatro aviões disponíveis.
+ 
+  2. **Registrar o quantitativo de assentos disponíveis em cada avião.**
+     - O atendente deve informar o número de assentos disponíveis para cada um dos aviões registrados na primeira opção.
+ 
+  3. **Reservar passagem aérea.**
+     - Deve ser verificada a existência do avião informado. Caso não exista, exibir a mensagem: *“Este avião não existe!”*.
+     - Deve ser verificado se há assentos disponíveis. Caso não haja, exibir a mensagem: *“Não há assentos disponíveis para este avião!”*.
+     - Se o avião existir e houver assentos disponíveis, solicitar o nome do passageiro e concluir a reserva.
+     - Após a reserva, atualizar a quantidade de assentos disponíveis e exibir a mensagem: *“Reserva realizada com sucesso!”*.
+     - O sistema deve permitir no máximo **20 reservas**.
+ 
+  4. **Realizar consulta por avião.**
+     - O atendente deve informar o número do avião.
+     - O sistema deve exibir todas as reservas realizadas para esse avião.
+     - Caso o avião não exista, exibir a mensagem: *“Este avião não existe!”*.
+     - Se não houver reservas para esse avião, exibir: *“Não há reservas realizadas para este avião!”*.
+ 
+  5. **Realizar consulta por passageiro.**
+     - O atendente deve informar o nome do passageiro.
+     - O sistema deve exibir todas as reservas realizadas para esse cliente.
+     - Caso não haja reservas para o passageiro, exibir: *“Não há reservas realizadas para este passageiro!”*.
+ 
+  6. **Encerrar.**
+     - O atendente deve encerrar o sistema.
+
+### **Critérios de Avaliação:**
+- Uso correto de **encapsulamento** para proteger os atributos.
+- Aplicação de **herança** e **polimorfismo** onde necessário.
+- Utilização de **ArrayList** para armazenar os aviões e suas respectivas reservas.
+- Implementação de um **sistema de menu interativo** para facilitar a navegação.
+- Organização e clareza no código-fonte.
